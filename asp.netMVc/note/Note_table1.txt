@@ -1,0 +1,26 @@
+create table employee_details
+(
+  id int primary key,
+name varchar(50) not null,
+gender varchar(50) not null,
+designation varchar(50) not null,
+city varchar(50) not null,
+salary int not null
+)
+
+INSERT INTO employee_details VALUES 
+(1,'Rahul','Male','Manager','Hyderabad',12000),
+(2,'Gopal','Male','Manager','Goa',13000),
+(3,'Arun','Male','Operator','Lucknow',12000),
+(4,'Shagun','Female','Director','Lucknow',34000),
+(6,'Gautam','male','Assistant','Mirzapur',17000),
+(7,'Vivek','male','Assistant','Gorakhpur',18000),
+(8,'Arun','male','Assistant','Indaur',19000),
+(9,'Amit','male','Assistant','Breli',20000),
+(10,'Salman','male','Assistant','Mumbai',21000),
+(11,'Abhishek','male','Assistant','Delhi',22000),
+(12,'Ankit','male','Assistant','Unnao',23000),
+(13,'Upnesh','male','Assistant','Mirzapur',24000),
+(14,'Shudhanshu','male','Assistant','Bhopal',25000),
+(15,'Sapna','Female','Assistant','Bhopal',16000),
+(16,'Roma','Female','Assistant','Bhopal',16000),

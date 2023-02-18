@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>@ViewData["message"]</h2>
+<h2>@ViewData["currentTime"]</h2>
+<hr />
+
+@{ 
+    foreach(string i in (string[])ViewData["fal"])
+    {
+        <li>@i</li>
+    }
+}
+
+<br />
+<hr />
+
+@{ 
+    foreach(string i in (List<string>)ViewData["sprotsTools"])
+    {
+        <li>@i</li>
+    }
+}
+
+
+<hr />
+
+@{ 
+    var a = (ViewDataDemo.Models.Employee)ViewData["Employee"];
+}
+
+
+<p>@a.EmpId</p>
+<p>@a.EmpName</p>
+<p>@a.EmpDesignation</p>

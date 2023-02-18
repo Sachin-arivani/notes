@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+
+<h2>About</h2>
+<hr />
+
+<h2>This is ViewData:@ViewData["message1"]</h2>
+
+<hr />
+
+<h2>This is Viewbag:@ViewBag.message2</h2>
+
+<hr />
+
+<h2>This is message from TempDATa:@TempData["var1"]</h2>
+
+<hr />
+<ul>
+    @{
+        foreach (string i in (string[])TempData["sports"])
+        {
+            <li>@i</li>
+        }
+    }
+</ul>
+

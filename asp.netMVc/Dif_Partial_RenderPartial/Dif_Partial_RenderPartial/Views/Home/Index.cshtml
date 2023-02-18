@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{ 
+    var list = Html.Partial("_StudentsList");
+    list = new MvcHtmlString("<h3></h3>"+list.ToString());
+}
+
+@list
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.916
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confirmation_Button", "Confirmation_Button\Confirmation_Button.csproj", "{B6D9B203-538C-45EE-876F-9B7AEDAE749B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D9B203-538C-45EE-876F-9B7AEDAE749B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D9B203-538C-45EE-876F-9B7AEDAE749B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D9B203-538C-45EE-876F-9B7AEDAE749B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D9B203-538C-45EE-876F-9B7AEDAE749B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B57186D-E806-4745-957B-5806851FC0FE}
+	EndGlobalSection
+EndGlobal

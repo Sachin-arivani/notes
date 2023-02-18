@@ -1,0 +1,14 @@
+E:\sachin\webapinew\webapinew\bin\Debug\netcoreapp2.1\webapinew.deps.json
+E:\sachin\webapinew\webapinew\bin\Debug\netcoreapp2.1\webapinew.runtimeconfig.json
+E:\sachin\webapinew\webapinew\bin\Debug\netcoreapp2.1\webapinew.runtimeconfig.dev.json
+E:\sachin\webapinew\webapinew\bin\Debug\netcoreapp2.1\webapinew.dll
+E:\sachin\webapinew\webapinew\bin\Debug\netcoreapp2.1\webapinew.pdb
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.csprojAssemblyReference.cache
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.csproj.CoreCompileInputs.cache
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.RazorAssemblyInfo.cache
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.RazorAssemblyInfo.cs
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.AssemblyInfoInputs.cache
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.AssemblyInfo.cs
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.RazorTargetAssemblyInfo.cache
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.dll
+E:\sachin\webapinew\webapinew\obj\Debug\netcoreapp2.1\webapinew.pdb

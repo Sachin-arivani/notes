@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<h1>@ViewBag.message</h1>
+<h1>@ViewBag.current_Date</h1>
+<ul>
+
+@{
+    foreach(string i in ViewBag.fruits_Array)
+    {
+       <li>@i</li> 
+    }
+}
+</ul>
+
+<ul>
+    @{
+        foreach(string i in ViewBag.sport_List)
+        {
+            <li>
+              @i
+            </li>
+        }
+    }
+</ul>
+
+@{
+    var a = ViewBag.emplo;
+}
+<p>@a.Emp_id</p>
+<p>@a.EmpName</p>
+<p>@a.Emp_designation</p>

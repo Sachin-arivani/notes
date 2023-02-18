@@ -1,0 +1,53 @@
+﻿@model LoginFormSessionMVC.Models.user
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+
+    <div class="col-md-3 col-md-offset-5">
+
+        <div style="height:200px; border:5px solid black; padding:10px;" >
+
+            @using(Html.BeginForm("Index","Login",FormMethod.Post))
+            {
+            <table>
+                <tr>
+                    <th colspan="2" class="text-center" style="font-size:25px;">Login</th>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.UserName)</td> 
+
+                    <td>@Html.TextBoxFor(model => model.UserName, new { @class="form-control"})
+                        
+                        @Html.ValidationMessageFor(model =>model.UserName,"",new { @class="text-danger"})
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>@Html.LabelFor(model => model.Password)</td>
+
+                    <td>@Html.EditorFor(model => model.Password,new { htmlAttributes = new { @class = "form-control" } })
+                    
+                        @Html.ValidationMessageFor(model =>model.Password,"",new { @class="text-danger"})
+                         
+                         @ViewBag.ErrorMessage
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Login" name="login" class="btn btn-info"/>
+                        <a href="/Login/Reset" class="btn btn-danger">Reset</a>
+                    </td>
+                </tr>
+            </table>
+            }
+
+        </div>
+    </div>
+</div>
+

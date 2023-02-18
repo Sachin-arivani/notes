@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.916
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "form_with_html_hyper_method", "form_with_html_hyper_method\form_with_html_hyper_method.csproj", "{1688A28B-D0C9-478A-9E02-EF5EA73A4679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1688A28B-D0C9-478A-9E02-EF5EA73A4679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1688A28B-D0C9-478A-9E02-EF5EA73A4679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1688A28B-D0C9-478A-9E02-EF5EA73A4679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1688A28B-D0C9-478A-9E02-EF5EA73A4679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C42B50BF-CA38-4385-9ED6-A1A49C8F7A98}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+create table students_details
+(
+  id int primary key,
+name varchar(50) not null,
+gender varchar(50) not null,
+study varchar(50) not null,
+city varchar(50) not null
+
+)
+
+INSERT INTO employee_details VALUES 
+(1,'Rahul','Male','10th','Hyderabad'),
+(2,'Gopal','Male','11th','Goa'),
+(3,'Arun','Male','12th','Lucknow'),
+(4,'Shagun','Female','10th','Lucknow'),
+(6,'Gautam','male','11th','Mirzapur'),
+(7,'Vivek','male','12th','Gorakhpur'),
+(8,'Arun','male','10th','Indaur'),
+(9,'Amit','male','11th','Breli'),
+(10,'Salman','male','12th','Mumbai'),
+(11,'Abhishek','male','10th','Delhi'),
+(12,'Ankit','male','11th','Unnao'),
+(13,'Upnesh','male','12th','Mirzapur'),
+(14,'Shudhanshu','male','10th','Bhopal'),
+(15,'Sapna','Female','11th','Bhopal'),
+(16,'Roma','Female','12th','Bhopal');

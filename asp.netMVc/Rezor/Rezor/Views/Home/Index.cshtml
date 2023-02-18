@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<!--Inline expressing statement-->
+@*<p>Today is time is : @DateTime.Now</p>
+    <p>the year is: @DateTime.Now.Year</p>*@
+
+<!--declaring variables-->
+@*@{
+        string name = "Rahul";
+
+        var today = DateTime.Now.ToLongTimeString();
+    }
+
+    <h2>The student name is:@name</h2>
+    <h2>Joing date is: @today</h2>*@
+
+<!--Conditional statements-->
+
+@*@{
+    int a = 80;
+    if (a <= 90)
+    {
+
+        <h2>this is less then 90</h2>
+    }
+    else
+    {
+        <h2>This is garger than 90 </h2>
+
+    }
+}*@
+
+@*@{ 
+    for(int i=1;i<=10;i++)
+    {
+        @i; <br />
+    }
+}*@
+
+@{ 
+    string[] sprot = { "Hockey","cricket","football" };
+
+    foreach(string i in sprot)
+    {
+        <h2>@i</h2>
+    }
+}
